@@ -12,11 +12,11 @@ import functools
 def __check_env_defined():
     # We expect this environment variable to be present to ensure health checks
     # A file can be like this:  /tmp/myapp.is.healthy
-    __HEALTH_CHECK_FILE = os.environ.get("ENV_HEALTH_CHECK_FILE", None)
-    if not __HEALTH_CHECK_FILE:
+    health_check_file = os.environ.get("ENV_HEALTH_CHECK_FILE", None)
+    if not health_check_file:
         raise Exception("Please define environment variable ENV_HEALTH_CHECK_FILE, "
                         "for e.g. `export ENV_HEALTH_CHECK_FILE=/tmp/myapp.is.healthy`")
-    return __HEALTH_CHECK_FILE
+    return health_check_file
 
 
 def health_check():
