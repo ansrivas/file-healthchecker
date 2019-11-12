@@ -5,7 +5,7 @@ help:             ## Show available options with this Makefile
 
 .PHONY : test
 test:             ## Run all the tests
-	python setup.py test
+	pytest
 
 .PHONY : recreate_pyenv
 recreate_pyenv:   ## Create the python environment. Recreates if the env exists already.
