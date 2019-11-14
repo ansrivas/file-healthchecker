@@ -2,7 +2,7 @@
 
 Use this application to monitor your long running "non-web" application's health check.
 
-[![Build Status](https://travis-ci.com/ansrivas/healthcheck.svg?token=hM6V8mr5fwQPseiFSYVi&branch=master)](https://travis-ci.com/ansrivas/healthcheck)
+[![Build Status](https://travis-ci.com/ansrivas/file-healthchecker.svg?branch=master)](https://travis-ci.com/ansrivas/file-healthchecker)
 ![PyPI](https://img.shields.io/pypi/v/file-healthchecker)
 ## Installation
 
