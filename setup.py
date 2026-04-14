@@ -20,7 +20,7 @@ def get_version():
 
 REQUIRES_PYTHON = ">=3.6.0"
 TEST_REQUIRES = [
-    "pytest==5.2.1",
+    "pytest==9.0.3",
     "pytest-sugar==0.9.2",
     "pytest-asyncio==0.10.0",
     "pytest-cov==2.8.1",
